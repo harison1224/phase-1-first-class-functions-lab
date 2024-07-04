@@ -28,10 +28,10 @@ const createFareMultiplier = (multiplier) => {
       return fare * multiplier;
     };
   };
- 
+
   const quadrupleFare = createFareMultiplier(4);
   console.log(quadrupleFare(100)); // => 400
-  
+
   const doubleFare = createFareMultiplier(2);
   console.log(doubleFare(100)); // => 200
 
